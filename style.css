@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(19, 19, 19);
+    border: 3px solid;
+}
+
+
+.h1{
+    color: red;
+}
+
+.p1{
+    color: red;
+}
+
+.h2{
+    color: red;
+}
+
+.p2{
+    color: red; 
+}
+
+
+.img{
+    width: 300px;
+    border: 2px solid red;
+}
+
+.menu{
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+    box-shadow: 5px 5px 10px orange;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: orange;
+    transform:scale(1.1);
+}
+
+.p{
+    color: red;
+    background-color: brown;
+}
+
+.form{
+    color: red;
+}
+
+.div1{
+    color: red;
+}
+
+.div2{
+    color: red;
+}
+
+.div3{
+    color: red;
+}
+
+.div4{
+    color: red;
+}
+
+.baner{
+    background-image: url(./banner-lucifer-Cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border: solid red;
+    box-shadow: 5px 5px 10px orange;
+}
+
